@@ -10,4 +10,6 @@ RUN mkdir /root/httperf-plot
 
 COPY . /root/httperf-plot
 
- CMD ["sh" "-c" "cd; exec bash -i"]
+VOLUME [/root]
+
+CMD sh -c cd; exec bash -i
