@@ -29,5 +29,3 @@ jobs:
         with:
           push: true
           tags: abdoubentegar/httperf-docker,abdoubentegar/httperf-docker:0.1
-          file: nuxt/network-v/dockerfile
-          context: ./nuxt/network-v
