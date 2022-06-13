@@ -9,3 +9,5 @@ RUN pip3 install matplotlib
 RUN mkdir /root/httperf-plot
 
 COPY . /root/httperf-plot
+
+ CMD ["sh" "-c" "cd; exec bash -i"]
